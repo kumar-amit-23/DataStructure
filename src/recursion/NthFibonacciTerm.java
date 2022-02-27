@@ -5,6 +5,7 @@ public class NthFibonacciTerm {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println(nthFibTerm(6));
+		System.out.println(5/0);
 	}
 
 	public static int nthFibTerm(int n) {
