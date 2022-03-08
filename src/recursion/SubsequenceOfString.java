@@ -6,7 +6,7 @@ public class SubsequenceOfString {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println(getSubsequenceASCII("ab"));
+		System.out.println(getSubsequence("abcd"));
 	}
 
 	// return the array list which contains the subsequence of the string
