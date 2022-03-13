@@ -38,7 +38,7 @@ public class Client {
 //		System.out.println("reversed");
 //		ll.display();
 //		ll.addLast(100);
-		//ll.removeLast();
+		// ll.removeLast();
 		ll.addFirst(1);
 		ll.display();
 
@@ -47,7 +47,10 @@ public class Client {
 		ll.removeLast();
 		ll.display();
 		System.out.println("mid ->" + ll.getMid());
-		
+		System.out.println("-------------------------");
+		ll.display();
+		System.out.println(ll.getKthNodeFromeEnd(3));
+
 	}
 
 }

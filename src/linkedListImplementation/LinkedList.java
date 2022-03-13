@@ -242,4 +242,24 @@ public class LinkedList {
 		return mid.data;
 	}
 
+	public int getKthNodeFromeEnd(int k) throws Exception {
+		if (k < 0 || k >= this.size) {
+			throw new Exception("idx out of range");
+		}
+
+		Node slow = this.head;
+		Node fast = this.head;
+
+		for (int i = 1; i <= k; i++) {
+			fast = fast.next;
+		}
+
+		while (fast != null) {
+			slow = slow.next;
+			fast = fast.next;
+		}
+
+		return slow.data;
+	}
+
 }
