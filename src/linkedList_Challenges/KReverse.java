@@ -258,6 +258,7 @@ public class KReverse {
 			System.out.println("**********");
 			list.reverse(k);
 			list.display();
+			scn.close();
 		}
 	}
 }
